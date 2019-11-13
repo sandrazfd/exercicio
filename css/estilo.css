@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+/* home */
+.colornav{
+    background-color: #07384e; 
+} 
+nav ul{
+    list-style-type:none;
+    padding:10px;  
+    margin-top:20px;
+}
+nav ul li{
+    display:inline;
+    padding:10px;
+   
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;  
+    font-size:1em; 
+}
+.titulo { 
+    float:left;
+    color:white;
+    font-size:2em;
+    padding:10px;
+    margin:10px;
+    overflow:hidden;
+}
+.color{
+    background-color:#5cbd9c;
+   
+}
+main img{
+    align-content: center;
+
+}
+main h1{
+    text-transform: uppercase;
+    color: white;
+    font-size:3em;   
+}
+.avatar{
+    padding:50px;
+}
+#icone{
+    color:white;
+       
+} 
+.cor1{
+    border :2px solid white;
+    margin:0px;
+    width:10%; 
+   
+} 
+#rodap{
+    font-size:1em;
+    color:white;
+    padding:10px;
+} 
+/* portifolio */
+#marg{
+    padding:50px;
+}
+#port{
+    text-align: center;
+    text-transform: uppercase;
+}
+.cor{
+    border:2px solid black;
+    margin:0px;
+    width:10%;
+}
+.mg{
+    margin-top:30px;
+    margin-bottom: 50px; 
+}
+/* ABOUT */
+.color2{
+    background-color:#5cbd9c;
+}
+#marg2{
+    padding:50px;
+
+}
+.parag{
+    color:white;
+    margin-top: 30px;;
+    text-align: justify; 
+    font-size:1em;
+    margin-bottom:50px;
+}
+.parag1{
+    color:white;
+    margin-top:30px;
+    text-align: justify;
+    font-size:1em;
+    margin-bottom:50px;
+}
+/* contato */
+#marg1{
+    padding:50px;
+}
+.btn{
+    background-color:#5cbd9c;
+    color:white;
+    margin-bottom:50px;
+}
+
+/* rodape */
+.local{
+    color:white;
+    
+    font-size:1.5em;
+    text-align:center;
+}
+.foot{
+    color:white;
+}
+.around ul{
+    margin-right:50px;
+}
+.around ul li{
+    display:inline;  
+    margin-left:5px;
+} 
+cite{
+    color:green;
+}
+.copy{
+    background-color:rgb(71, 64, 87);
+    text-align:center;
+    color:white;
+}
+@media(max-width:414px){
+    .location{
+      font-size:14px;
+    }
+    .around{
+        font-size:14px;  
+    }
+    .freelancer{
+       font-size:14px;
+    }
+}
